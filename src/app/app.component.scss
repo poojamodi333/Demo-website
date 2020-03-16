@@ -1,0 +1,18 @@
+@import "../scss/custom-variable";
+
+.active a{color:yellow !important;}
+
+.right-menu{
+    ul{
+        padding: 0;
+        margin: 0;
+        li{
+            list-style: none;
+            display: inline-block;
+            padding: 10px;
+            a{
+                color: $white;
+            }
+        }
+    }
+}
